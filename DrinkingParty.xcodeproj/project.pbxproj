@@ -32,6 +32,7 @@
 		E0AFFC8A181A67E900E17AD7 /* DrinkingPartyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AFFC89181A67E900E17AD7 /* DrinkingPartyTests.m */; };
 		E0AFFC95181A695300E17AD7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AFFC94181A695300E17AD7 /* HomeViewController.m */; };
 		E0AFFC98181A6B1A00E17AD7 /* SettingModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AFFC97181A6B1A00E17AD7 /* SettingModeViewController.m */; };
+		E0DAB7AC186C09D3001AD877 /* MyPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DAB7AB186C09D3001AD877 /* MyPickerViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +84,8 @@
 		E0AFFC94181A695300E17AD7 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
 		E0AFFC96181A6B1A00E17AD7 /* SettingModeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingModeViewController.h; sourceTree = "<group>"; };
 		E0AFFC97181A6B1A00E17AD7 /* SettingModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingModeViewController.m; sourceTree = "<group>"; };
+		E0DAB7AA186C09D2001AD877 /* MyPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPickerViewController.h; sourceTree = "<group>"; };
+		E0DAB7AB186C09D3001AD877 /* MyPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPickerViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,6 +161,8 @@
 				A50BA6D4186C040E00465605 /* FMResultSet.h */,
 				A50BA6D5186C040E00465605 /* FMResultSet.m */,
 				E0AFFC70181A67E900E17AD7 /* MainStoryboard.storyboard */,
+				E0DAB7AA186C09D2001AD877 /* MyPickerViewController.h */,
+				E0DAB7AB186C09D3001AD877 /* MyPickerViewController.m */,
 				E0AFFC96181A6B1A00E17AD7 /* SettingModeViewController.h */,
 				E0AFFC97181A6B1A00E17AD7 /* SettingModeViewController.m */,
 				E0AFFC93181A695300E17AD7 /* HomeViewController.h */,
@@ -323,6 +328,7 @@
 				A50BA6D8186C040E00465605 /* FMDatabasePool.m in Sources */,
 				A50BA6D9186C040E00465605 /* FMDatabaseQueue.m in Sources */,
 				A50BA6DB186C040E00465605 /* FMResultSet.m in Sources */,
+				E0DAB7AC186C09D3001AD877 /* MyPickerViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
