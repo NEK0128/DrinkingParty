@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface SettingModeViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UIPickerView *picker;
+@property (strong, nonatomic) IBOutlet UIButton *playButton;
 
 @end

@@ -10,5 +10,6 @@
 #import "FMDatabase.h"
 #import <Foundation/Foundation.h>
 @interface HomeViewController :UIViewController
-//theme情報を格納するクラス
+
+@property (strong, nonatomic) IBOutlet UIButton *mode1Button;
 @end
