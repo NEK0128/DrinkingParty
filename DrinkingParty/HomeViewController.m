@@ -55,11 +55,19 @@
     }
         
     FMDatabase *db = [FMDatabase databaseWithPath:@"/Users/NEK/Programing/DrinkingParty/iPhoneAppDatabase.db"];
-    
+    NSString *sql = @"SELECT name FROM themeTable;";
     [db open]; //DB開く
+    FMResultSet *results = [db executeQuery:sql,1];
+    NSMutableArray* theme = [[NSMutableArray alloc] initWithCapacity:0];
+    while( [results next])
+    {
+        NSLog(@"%@", [results stringForColumn:@"name"]);
+        
+    }
     [db close]; //DB閉じる
     
-     NSLog(@"外きた");
+    
+     //NSLog(@"外きた");
 
 }
 
