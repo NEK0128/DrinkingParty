@@ -9,5 +9,6 @@
 #import <UIKit/UIKit.h>
 #import "FMDatabase.h"
 @interface HomeViewController :UIViewController
+@property (strong, nonatomic) IBOutlet UIButton *mode1Button;
 
 @end

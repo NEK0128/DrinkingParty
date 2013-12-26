@@ -33,6 +33,8 @@
 		E0AFFC95181A695300E17AD7 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AFFC94181A695300E17AD7 /* HomeViewController.m */; };
 		E0AFFC98181A6B1A00E17AD7 /* SettingModeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0AFFC97181A6B1A00E17AD7 /* SettingModeViewController.m */; };
 		E0DAB7AC186C09D3001AD877 /* MyPickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DAB7AB186C09D3001AD877 /* MyPickerViewController.m */; };
+		E0DAB7AF186C27F6001AD877 /* ThemeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DAB7AE186C27F5001AD877 /* ThemeViewController.m */; };
+		E0DAB7B2186C2804001AD877 /* ResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DAB7B1186C2804001AD877 /* ResultViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +88,10 @@
 		E0AFFC97181A6B1A00E17AD7 /* SettingModeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingModeViewController.m; sourceTree = "<group>"; };
 		E0DAB7AA186C09D2001AD877 /* MyPickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPickerViewController.h; sourceTree = "<group>"; };
 		E0DAB7AB186C09D3001AD877 /* MyPickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPickerViewController.m; sourceTree = "<group>"; };
+		E0DAB7AD186C27F5001AD877 /* ThemeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeViewController.h; sourceTree = "<group>"; };
+		E0DAB7AE186C27F5001AD877 /* ThemeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeViewController.m; sourceTree = "<group>"; };
+		E0DAB7B0186C2804001AD877 /* ResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResultViewController.h; sourceTree = "<group>"; };
+		E0DAB7B1186C2804001AD877 /* ResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResultViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +167,10 @@
 				A50BA6D4186C040E00465605 /* FMResultSet.h */,
 				A50BA6D5186C040E00465605 /* FMResultSet.m */,
 				E0AFFC70181A67E900E17AD7 /* MainStoryboard.storyboard */,
+				E0DAB7AD186C27F5001AD877 /* ThemeViewController.h */,
+				E0DAB7AE186C27F5001AD877 /* ThemeViewController.m */,
+				E0DAB7B0186C2804001AD877 /* ResultViewController.h */,
+				E0DAB7B1186C2804001AD877 /* ResultViewController.m */,
 				E0DAB7AA186C09D2001AD877 /* MyPickerViewController.h */,
 				E0DAB7AB186C09D3001AD877 /* MyPickerViewController.m */,
 				E0AFFC96181A6B1A00E17AD7 /* SettingModeViewController.h */,
@@ -329,6 +339,8 @@
 				A50BA6D9186C040E00465605 /* FMDatabaseQueue.m in Sources */,
 				A50BA6DB186C040E00465605 /* FMResultSet.m in Sources */,
 				E0DAB7AC186C09D3001AD877 /* MyPickerViewController.m in Sources */,
+				E0DAB7AF186C27F6001AD877 /* ThemeViewController.m in Sources */,
+				E0DAB7B2186C2804001AD877 /* ResultViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
