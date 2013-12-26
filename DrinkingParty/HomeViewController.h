@@ -12,4 +12,5 @@
 @interface HomeViewController :UIViewController
 
 @property (strong, nonatomic) IBOutlet UIButton *mode1Button;
+
 @end
